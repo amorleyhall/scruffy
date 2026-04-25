@@ -18,3 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: seeeduino_xiao_ble
+    shield: scruffy_left rgbled_adapter
+    snippet: studio-rpc-usb-ble
+  - board: seeeduino_xiao_ble
+    shield: scruffy_right rgbled_adapter

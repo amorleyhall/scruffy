@@ -1,0 +1,16 @@
+if SHIELD_SCRUFFY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "scruffy"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_SCRUFFY_LEFT
+
+if SHIELD_SCRUFFY_LEFT || SHIELD_SCRUFFY_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_SCRUFFY_LEFT || SHIELD_SCRUFFY_RIGHT

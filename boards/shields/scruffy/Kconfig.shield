@@ -1,0 +1,5 @@
+config SHIELD_SCRUFFY_LEFT
+    def_bool $(shields_list_contains,scruffy_left)
+
+config SHIELD_SCRUFFY_RIGHT
+    def_bool $(shields_list_contains,scruffy_right)
